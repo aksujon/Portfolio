@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdul Kader | Virtual Assistant &amp; Administrative Support</title>
+<meta name="description" content="Abdul Kader is an Economics postgraduate offering virtual assistance, administrative support, client communication and data management to international clients.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abdul Kader | Virtual Assistant">
+<meta property="og:description" content="Administrative support, client communication and data management for international businesses.">
+<meta property="og:image" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14253D;--white:#fff;--beige:#F5F1EA;--text:#263238;--gold:#B49A68;--muted:#55636b;--line:#e3ddd1;
+--serif:"Source Serif 4",Georgia,serif;--sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;font:400 1.0625rem/1.65 var(--sans);color:var(--text);background:var(--white)}
+img{max-width:100%;display:block}
+a{color:var(--navy)}
+:focus-visible{outline:3px solid var(--navy);outline-offset:3px}
+.on-navy :focus-visible,header :focus-visible,footer :focus-visible{outline-color:var(--gold)}
+.wrap{width:min(1120px,92%);margin-inline:auto}
+section{padding:5rem 0}
+.alt{background:var(--beige)}
+h1,h2,h3{font-family:var(--serif);color:var(--navy);line-height:1.2;margin:0 0 .6em;font-weight:600}
+h2{font-size:clamp(1.75rem,3.5vw,2.4rem)}
+h2::after{content:"";display:block;width:48px;height:3px;background:var(--gold);margin-top:.5rem}
+h3{font-size:1.25rem}
+.lead{max-width:62ch;color:var(--muted)}
+.btn{display:inline-block;padding:.75rem 1.4rem;border-radius:999px;font:600 1rem var(--sans);text-decoration:none;border:2px solid var(--navy);cursor:pointer;transition:background .2s,color .2s}
+.btn-primary{background:var(--navy);color:#fff}.btn-primary:hover{background:#0c1829}
+.btn-outline{background:transparent;color:var(--navy)}.btn-outline:hover{background:var(--navy);color:#fff}
+.btn-wa{background:#1f7a4a;border-color:#1f7a4a;color:#fff}.btn-wa:hover{background:#17603a}
+header{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font:600 1.2rem var(--serif);color:#fff;text-decoration:none}
+.nav ul{display:flex;gap:1.5rem;list-style:none;margin:0;padding:0;align-items:center}
+.nav a.l{color:#e8ecf2;text-decoration:none;font-size:.95rem}.nav a.l:hover{color:var(--gold)}
+.nav .btn{padding:.45rem 1.1rem;background:var(--gold);border-color:var(--gold);color:var(--navy)}
+#menuBtn{display:none;background:none;border:2px solid #fff;color:#fff;border-radius:8px;padding:.3rem .7rem;font:600 .95rem var(--sans);cursor:pointer}
+.hero{padding:5rem 0 5.5rem}
+.hero-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:3rem;align-items:center}
+.hero h1{font-size:clamp(2.4rem,6vw,3.8rem);margin-bottom:.3em}
+.headline{font:500 clamp(1.05rem,2.2vw,1.3rem)/1.5 var(--serif);color:var(--navy);margin:0 0 1.2rem;overflow-wrap:anywhere}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.8rem}
+.photo{aspect-ratio:4/5;max-width:340px;width:100%;margin-inline:auto;border-radius:20px;overflow:hidden;background:var(--navy);display:grid;place-items:center;color:var(--gold);font:600 4rem var(--serif);box-shadow:0 12px 30px rgba(20,37,61,.18)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.facts{list-style:none;margin:0;padding:0;display:grid;gap:.9rem}
+.facts li{padding-left:1.6rem;position:relative}
+.facts li::before{content:"";position:absolute;left:0;top:.7em;width:.7rem;height:2px;background:var(--gold)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.4rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.6rem;box-shadow:0 4px 14px rgba(20,37,61,.06)}
+.alt .card{border-color:transparent}
+.icon{width:44px;height:44px;border-radius:12px;background:var(--navy);color:var(--gold);display:grid;place-items:center;margin-bottom:1rem}
+.icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card p{margin:0;color:var(--muted)}
+.timeline{list-style:none;margin:0;padding:0 0 0 1.6rem;border-left:2px solid var(--gold);display:grid;gap:1.6rem}
+.timeline li{position:relative}
+.timeline li::before{content:"";position:absolute;left:calc(-1.6rem - 7px);top:1.9rem;width:12px;height:12px;border-radius:50%;background:var(--navy);border:2px solid var(--beige)}
+.timeline ul{margin:.6rem 0 0;padding-left:1.2rem;color:var(--muted)}
+.role{color:var(--muted);font-weight:500;margin:-.3rem 0 .4rem}
+.badges{display:flex;flex-wrap:wrap;gap:.7rem;list-style:none;margin:0;padding:0}
+.badges li{background:var(--beige);border:1px solid var(--line);border-radius:999px;padding:.55rem 1.1rem;font-weight:500;color:var(--navy)}
+.label{display:inline-block;background:var(--beige);color:var(--navy);border:1px solid var(--navy);border-radius:6px;padding:.1rem .55rem;font-size:.82rem;font-weight:600;margin-bottom:.8rem}
+.shot{aspect-ratio:16/10;border-radius:10px;background:repeating-linear-gradient(45deg,#ece6d9,#ece6d9 10px,#f5f1ea 10px,#f5f1ea 20px);display:grid;place-items:center;color:var(--muted);font-size:.9rem;text-align:center;padding:1rem;margin-bottom:1rem;overflow:hidden}
+.shot img{width:100%;height:100%;object-fit:cover}
+.tools{font-size:.92rem;color:var(--muted);margin:.8rem 0 1rem}
+.avail{background:var(--navy);color:#fff;padding:2.5rem 0}
+.avail h2{color:#fff;font-size:1.5rem}
+.avail dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.4rem;margin:1rem 0 0}
+.avail dt{color:var(--gold);font-weight:600;font-size:.9rem}.avail dd{margin:.2rem 0 0}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+form{display:grid;gap:1rem}
+label{font-weight:600;color:var(--navy);display:block;margin-bottom:.25rem}
+input,textarea{width:100%;font:inherit;padding:.7rem .9rem;border:1.5px solid #9aa5ad;border-radius:10px;background:#fff;color:var(--text)}
+textarea{min-height:150px;resize:vertical}
+.err{color:#a12622;font-size:.9rem;min-height:1.2em;margin:.2rem 0 0}
+input[aria-invalid=true],textarea[aria-invalid=true]{border-color:#a12622}
+.hp{position:absolute;left:-9999px}
+#status{padding:.8rem 1rem;border-radius:10px;display:none}
+#status.ok{display:block;background:#e5f3ea;color:#14532d}
+#status.bad{display:block;background:#fbe9e7;color:#7a1f1b}
+#status.info{display:block;background:var(--beige);color:var(--navy)}
+.clist{list-style:none;margin:1.2rem 0 1.5rem;padding:0;display:grid;gap:.5rem}
+footer{background:var(--navy);color:#cfd6e0;padding:2.5rem 0;text-align:center}
+footer a{color:#fff}footer p{margin:.3rem 0}
+dialog{border:none;border-radius:18px;padding:0;width:min(720px,94vw);max-height:90vh;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(20,37,61,.6)}
+.dlg{padding:2rem;overflow:auto;max-height:90vh}
+.dlg h4{margin:1.3rem 0 .3rem;font:600 1.05rem var(--serif);color:var(--navy)}
+.dlg ul{margin:.3rem 0;padding-left:1.2rem}
+.empty{color:var(--muted);font-style:italic;margin:.3rem 0}
+.close{float:right}
+@media(max-width:860px){
+ section{padding:3.5rem 0}
+ #menuBtn{display:block}
+ .nav ul{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:flex-start;padding:1rem 4%;gap:1rem;border-top:1px solid #2b3d57}
+ .nav ul.open{display:flex}
+ .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+ .hero .photo{order:-1;max-width:220px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+ <a class="brand" href="#home">Abdul Kader</a>
+ <button id="menuBtn" aria-expanded="false" aria-controls="navList">Menu</button>
+ <ul id="navList"></ul>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+ <div>
+  <h1 id="hName"></h1>
+  <p class="headline" id="hHeadline"></p>
+  <p class="lead" id="hIntro"></p>
+  <div class="cta" id="hCta"></div>
+ </div>
+ <div class="photo" id="hPhoto"></div>
+</div></section>
+
+<section class="alt" id="about"><div class="wrap about-grid">
+ <div><h2>About me</h2><p class="lead" id="aboutIntro"></p><ul class="facts" id="aboutFacts"></ul></div>
+ <div class="photo" id="aPhoto"></div>
+</div></section>
+
+<section id="experience"><div class="wrap"><h2>Professional experience</h2><ul class="timeline" id="expList"></ul></div></section>
+<section class="alt" id="services"><div class="wrap"><h2>Services</h2><div class="cards" id="svcList"></div></div></section>
+<section id="skills"><div class="wrap"><h2>Skills &amp; tools</h2><ul class="badges" id="skillList"></ul></div></section>
+<section class="alt" id="portfolio"><div class="wrap"><h2>Portfolio projects</h2>
+ <p class="lead" style="margin-bottom:1.6rem">These are demonstration projects created to show how I work. They are not paid client projects.</p>
+ <div class="cards" id="projList"></div></div></section>
+<section class="avail" id="availability" aria-labelledby="availH"><div class="wrap"><h2 id="availH">Availability</h2><dl id="availList"></dl></div></section>
+
+<section id="contact"><div class="wrap contact-grid">
+ <div>
+  <h2 id="cHead"></h2><p class="lead" id="cText"></p>
+  <ul class="clist" id="cList"></ul>
+  <a class="btn btn-wa" id="waBtn" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+ </div>
+ <form id="form" novalidate>
+  <div><label for="fName">Full name</label><input id="fName" name="name" autocomplete="name" required><p class="err" id="eName"></p></div>
+  <div><label for="fEmail">Email address</label><input id="fEmail" name="email" type="email" autocomplete="email" required><p class="err" id="eEmail"></p></div>
+  <div><label for="fSubject">Subject</label><input id="fSubject" name="subject" required><p class="err" id="eSubject"></p></div>
+  <div><label for="fMsg">Message</label><textarea id="fMsg" name="message" required></textarea><p class="err" id="eMsg"></p></div>
+  <div class="hp" aria-hidden="true"><label for="fGot">Leave this field empty</label><input id="fGot" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+  <button class="btn btn-primary" type="submit" id="send">Send message</button>
+  <div id="status" role="status" aria-live="polite"></div>
+ </form>
+</div></section>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+<dialog id="dlg" aria-labelledby="dTitle"><div class="dlg" id="dBody"></div></dialog>
+
+<script>
+/* =====================================================================
+   CONFIG: EDIT YOUR WEBSITE HERE. You normally do not need to touch
+   anything below this block.
+   - Text in [square brackets], or empty "", is treated as "not filled in yet"
+     and is HIDDEN from the page. Replace it with real text to show it.
+   - Keep the quotes " " and commas , exactly as they are.
+   ===================================================================== */
+const CONFIG = {
+
+  /* PERSONAL INFO + HERO */
+  name: "Abdul Kader",
+  headline: "Virtual Assistant | Administrative Support | Client Communication & Data Management",
+  intro: "An Economics postgraduate with hands-on experience in international client communication, administrative tasks, document verification, and spreadsheet management. I help businesses stay organised and manage their day-to-day operations efficiently.",
+
+  /* PROFILE PHOTO: upload photo.jpg next to index.html, then set profileImage: "photo.jpg".
+     Leave "" to show your initials instead. */
+  profileImage: "",
+  profileAlt: "Portrait of Abdul Kader",
+
+  /* ABOUT ME: edit or add lines in "facts" (copy a line, keep the comma). */
+  aboutIntro: "I bring a background in economics together with practical office and customer-facing experience. I am building my skills in virtual assistance, data analytics and digital productivity tools.",
+  facts: [
+    "Master's degree in Economics from National University, Bangladesh.",
+    "IELTS Overall Band Score: 7.0.",
+    "Professional experience communicating with international clients through phone calls, emails and WhatsApp.",
+    "Background in telesales, customer support, data entry and administrative activities.",
+    "Practical experience with Excel and document verification.",
+    "Currently expanding expertise in Virtual Assistance, data analytics and digital productivity tools."
+  ],
+
+  /* EXPERIENCE: to add a job, copy one { ... } block below, paste it after the comma,
+     and edit it. "period" is optional: add e.g. "2023 - 2024" when you want dates shown. */
+  experience: [
+    { company: "Node Edge", role: "Telesales Executive", period: "",
+      points: ["Communicated with international prospects and clients.","Conducted outbound calls and follow-ups.","Maintained communication through email and WhatsApp.","Supported lead management and reporting activities."] },
+    { company: "Rahmania Corporation", role: "Data Entry Operator", period: "",
+      points: ["Verified visa and flight-ticket information.","Maintained passenger information using Microsoft Excel.","Cross-checked supporting documents and corrected discrepancies.","Supported routine administrative and documentation activities."] },
+    { company: "Rise Up Labs", role: "Project-Based Customer Support", period: "",
+      points: ["Assisted with customer support activities involving US clients.","Responded to customer concerns during a short-term project."] }
+  ],
+
+  /* SERVICES: to add one, copy a { ... } block. "icon" can be:
+     admin, mail, table, search, chat, folder */
+  services: [
+    { icon: "admin", title: "Administrative & Virtual Assistance", text: "Supporting everyday administrative activities, organising information, and helping businesses manage routine tasks." },
+    { icon: "mail", title: "Email and Inbox Management", text: "Organising emails, drafting professional replies, categorising messages, and tracking follow-ups." },
+    { icon: "table", title: "Data Entry & Spreadsheet Management", text: "Entering, updating, cleaning, and organising business information using spreadsheets." },
+    { icon: "search", title: "Online Research", text: "Gathering and organising relevant information from online sources into structured, easy-to-use formats." },
+    { icon: "chat", title: "Customer Communication & Follow-ups", text: "Supporting professional communication with customers and prospects through email and other digital channels." },
+    { icon: "folder", title: "Document Organisation", text: "Organising digital documents, checking information, maintaining records, and identifying inconsistencies." }
+  ],
+
+  /* SKILLS & TOOLS: add or remove names in this list. */
+  skills: ["Microsoft Excel","Microsoft Word","Microsoft PowerPoint","Google Workspace","Microsoft Outlook","SQL (Developing Proficiency)","Zoom","Google Meet","Professional Email Communication","Data Entry & Document Verification"],
+
+  /* PORTFOLIO PROJECTS: to add a project, copy a whole { ... } block, paste it after the
+     last one (keep the comma between blocks) and edit it.
+     SCREENSHOTS: put image files (e.g. project1.png) in the same folder as index.html,
+     then add "project1.png" to "images". "cover" is the card picture (leave "" for placeholder).
+     "deliverables": add items like { label: "Sample inbox report (PDF)", url: "report.pdf" }. */
+  projects: [
+    { title: "Email Management & Client Communication",
+      summary: "A demonstration of organising a sample inbox, categorising messages, drafting professional responses, and tracking communication.",
+      tools: ["Gmail","Outlook","Google Sheets"],
+      cover: "", coverAlt: "Screenshot of the email management demonstration",
+      overview: "A demonstration project using a sample inbox with fictional messages.",
+      objective: "Show how incoming emails can be sorted, answered and tracked clearly.",
+      tasks: ["Categorise sample messages","Draft professional replies","Track follow-ups in a spreadsheet"],
+      images: [], deliverables: [] },
+    { title: "Excel Data Cleaning & Reporting",
+      summary: "A demonstration of cleaning sample business data, organising records, and creating useful spreadsheet summaries.",
+      tools: ["Microsoft Excel"],
+      cover: "", coverAlt: "Screenshot of the Excel data cleaning demonstration",
+      overview: "A demonstration project using a sample dataset.",
+      objective: "Show how messy records can be cleaned and summarised.",
+      tasks: ["Clean and standardise sample records","Organise data into tables","Create a simple summary report"],
+      images: [], deliverables: [] },
+    { title: "Administrative Task & Schedule Management",
+      summary: "A demonstration of organising a fictional executive's calendar, coordinating meetings, and maintaining task schedules.",
+      tools: ["Google Calendar","Google Sheets","Outlook"],
+      cover: "", coverAlt: "Screenshot of the schedule management demonstration",
+      overview: "A demonstration project built around a fictional executive's week.",
+      objective: "Show how meetings and tasks can be scheduled and tracked.",
+      tasks: ["Organise a sample calendar","Coordinate sample meetings","Maintain a task schedule"],
+      images: [], deliverables: [] }
+  ],
+
+  /* AVAILABILITY: replace the [brackets] with real details to show them. */
+  availability: {
+    location: "Bangladesh (UTC+6)",
+    hours: "[Add preferred working hours]",
+    response: "[Add response time]",
+    status: "[Available for opportunities / Limited availability / Unavailable]"
+  },
+
+  /* CONTACT: replace [brackets] with your details. Empty items are hidden.
+     CV: upload your file (e.g. Abdul-Kader-CV.pdf) next to index.html and set cv: "Abdul-Kader-CV.pdf",
+     or paste a Google Drive / Dropbox share link. */
+  contact: {
+    heading: "Let's Work Together",
+    text: "Looking for reliable support with administrative tasks, customer communication, or data management? Feel free to get in touch to discuss how I can help.",
+    email: "[Add your professional email]",
+    linkedin: "[Add your LinkedIn URL]",
+    cv: "[Add your CV file URL]",
+    whatsappNumber: "8801765847311",
+    whatsappDisplay: "+8801765847311",
+    whatsappMessage: "Hello Abdul, I found your portfolio and would like to discuss a project."
+  },
+
+  /* FORMSPREE: create a free form at formspree.io and paste its ID (the part after /f/).
+     Leave as "YOUR_FORM_ID" to use the email fallback instead. */
+  FORMSPREE_FORM_ID: "YOUR_FORM_ID"
+};
+/* ===================== END OF CONFIG ===================== */
+
+(function(){
+const C = CONFIG, $ = id => document.getElementById(id);
+const isPh = v => !v || /^\s*\[.*\]\s*$/.test(v) || v === "YOUR_FORM_ID";
+const ok = v => !isPh(v);
+function el(tag, attrs, kids){
+  const e = document.createElement(tag);
+  for (const k in (attrs||{})){ if(k==="text") e.textContent = attrs[k]; else e.setAttribute(k, attrs[k]); }
+  (kids||[]).forEach(c => e.appendChild(c));
+  return e;
+}
+const safeUrl = u => /^(https?:|mailto:|tel:)/i.test(u) || !/^[a-z]+:/i.test(u);
+const link = (href, text, cls, ext) => el("a", Object.assign({href, text}, cls?{class:cls}:{}, ext?{target:"_blank",rel:"noopener noreferrer"}:{}));
+const ICONS = {
+ admin:'<path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/>',
+ mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
+ table:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/>',
+ search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
+ chat:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/>',
+ folder:'<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>'
+};
+function icon(name){
+  const d = el("div",{class:"icon","aria-hidden":"true"});
+  d.innerHTML = '<svg viewBox="0 0 24 24">'+(ICONS[name]||ICONS.admin)+'</svg>';
+  return d;
+}
+
+document.title = C.name + " | Virtual Assistant & Administrative Support";
+
+/* Navigation */
+const nav = [["Home","home"],["About","about"],["Experience","experience"],["Services","services"],["Skills","skills"],["Portfolio","portfolio"],["Contact","contact"]];
+const navList = $("navList");
+nav.forEach(n => { const li = el("li"); li.appendChild(link("#"+n[1], n[0], "l")); navList.appendChild(li); });
+const cli = el("li"); cli.appendChild(link("#contact","Contact Me","btn")); navList.appendChild(cli);
+const mb = $("menuBtn");
+const setMenu = open => { navList.classList.toggle("open", open); mb.setAttribute("aria-expanded", open); mb.textContent = open ? "Close" : "Menu"; };
+mb.onclick = () => setMenu(!navList.classList.contains("open"));
+navList.addEventListener("click", e => { if(e.target.tagName==="A") setMenu(false); });
+document.addEventListener("keydown", e => { if(e.key==="Escape") setMenu(false); });
+
+/* Hero + About */
+$("hName").textContent = C.name;
+$("hHeadline").textContent = C.headline;
+$("hIntro").textContent = C.intro;
+const cta = $("hCta");
+cta.appendChild(link("#portfolio","View My Work","btn btn-primary"));
+cta.appendChild(link("#contact","Contact Me","btn btn-outline"));
+if (ok(C.contact.cv) && safeUrl(C.contact.cv)) cta.appendChild(link(C.contact.cv,"Download CV","btn btn-outline",true));
+["hPhoto","aPhoto"].forEach(id => {
+  const box = $(id);
+  if (ok(C.profileImage)) box.appendChild(el("img",{src:C.profileImage,alt:C.profileAlt,loading:"lazy"}));
+  else { box.textContent = C.name.split(" ").map(w=>w[0]).join("").slice(0,2); box.setAttribute("role","img"); box.setAttribute("aria-label","Profile photo placeholder"); }
+});
+$("aboutIntro").textContent = C.aboutIntro;
+C.facts.forEach(f => $("aboutFacts").appendChild(el("li",{text:f})));
+
+/* Experience */
+C.experience.forEach(x => {
+  const card = el("div",{class:"card"});
+  card.appendChild(el("h3",{text:x.company}));
+  card.appendChild(el("p",{class:"role",text:x.role + (ok(x.period) ? " (" + x.period + ")" : "")}));
+  const ul = el("ul"); x.points.forEach(p => ul.appendChild(el("li",{text:p}))); card.appendChild(ul);
+  $("expList").appendChild(el("li",{},[card]));
+});
+
+/* Services, skills */
+C.services.forEach(s => $("svcList").appendChild(el("article",{class:"card"},[icon(s.icon),el("h3",{text:s.title}),el("p",{text:s.text})])));
+C.skills.forEach(s => $("skillList").appendChild(el("li",{text:s})));
+
+/* Projects */
+const dlg = $("dlg"), dBody = $("dBody");
+let lastBtn = null;
+function shot(src, alt){
+  const d = el("div",{class:"shot"});
+  if (ok(src)) d.appendChild(el("img",{src,alt,loading:"lazy"}));
+  else d.textContent = "Screenshot placeholder. Demonstration image coming soon.";
+  return d;
+}
+function section(title, node){ return [el("h4",{text:title}), node]; }
+function listOrEmpty(items, empty){
+  if (!items || !items.length) return el("p",{class:"empty",text:empty});
+  const ul = el("ul"); items.forEach(i => ul.appendChild(el("li",{text:i}))); return ul;
+}
+function openProject(p, btn){
+  lastBtn = btn; dBody.textContent = "";
+  const close = el("button",{type:"button",class:"btn btn-outline close","aria-label":"Close project details",text:"Close"});
+  close.onclick = () => dlg.close();
+  dBody.appendChild(close);
+  dBody.appendChild(el("span",{class:"label",text:"Demonstration Project"}));
+  const t = el("h3",{id:"dTitle",text:p.title}); dBody.appendChild(t);
+  const add = (title, node) => section(title,node).forEach(n => dBody.appendChild(n));
+  add("Project overview", el("p",{text:p.overview}));
+  add("Objective", el("p",{text:p.objective}));
+  add("Tools used", listOrEmpty(p.tools,""));
+  add("Tasks completed", listOrEmpty(p.tasks,""));
+  const sh = el("div");
+  if (p.images && p.images.length) p.images.forEach((s,i) => sh.appendChild(shot(s, p.title+" screenshot "+(i+1))));
+  else sh.appendChild(el("p",{class:"empty",text:"Screenshots coming soon."}));
+  add("Screenshots", sh);
+  const dv = el("div");
+  if (p.deliverables && p.deliverables.length){
+    const ul = el("ul"); p.deliverables.forEach(d => { if(safeUrl(d.url)) ul.appendChild(el("li",{},[link(d.url,d.label,"",true)])); }); dv.appendChild(ul);
+  } else dv.appendChild(el("p",{class:"empty",text:"Sample deliverables coming soon."}));
+  add("Sample deliverables", dv);
+  dlg.showModal(); close.focus();
+}
+dlg.addEventListener("close", () => { if(lastBtn) lastBtn.focus(); });
+dlg.addEventListener("click", e => { if(e.target === dlg) dlg.close(); });
+C.projects.forEach(p => {
+  const card = el("article",{class:"card"});
+  card.appendChild(shot(p.cover, p.coverAlt));
+  card.appendChild(el("span",{class:"label",text:"Demonstration Project"}));
+  card.appendChild(el("h3",{text:p.title}));
+  card.appendChild(el("p",{text:p.summary}));
+  card.appendChild(el("p",{class:"tools",text:"Tools: " + p.tools.join(", ")}));
+  const b = el("button",{type:"button",class:"btn btn-outline",text:"View project"});
+  b.onclick = () => openProject(p, b);
+  card.appendChild(b);
+  $("projList").appendChild(card);
+});
+
+/* Availability */
+const A = C.availability, rows = [["Location / time zone",A.location],["Working hours",A.hours],["Typical response time",A.response],["Status",A.status]].filter(r => ok(r[1]));
+if (!rows.length) $("availability").hidden = true;
+rows.forEach(r => { $("availList").appendChild(el("div",{},[el("dt",{text:r[0]}),el("dd",{text:r[1]})])); });
+
+/* Contact */
+const K = C.contact;
+$("cHead").textContent = K.heading; $("cText").textContent = K.text;
+const cl = $("cList");
+if (ok(K.email)) cl.appendChild(el("li",{text:"Email: "},[link("mailto:"+K.email,K.email)]));
+if (ok(K.linkedin) && safeUrl(K.linkedin)) cl.appendChild(el("li",{text:"LinkedIn: "},[link(K.linkedin,"View profile","",true)]));
+if (ok(K.cv) && safeUrl(K.cv)) cl.appendChild(el("li",{text:"CV: "},[link(K.cv,"Download CV","",true)]));
+if (ok(K.whatsappDisplay)) cl.appendChild(el("li",{text:"WhatsApp: " + K.whatsappDisplay}));
+$("waBtn").href = "https://wa.me/" + K.whatsappNumber + "?text=" + encodeURIComponent(K.whatsappMessage);
+
+/* Form */
+const form = $("form"), status = $("status"), send = $("send");
+const say = (cls, msg) => { status.className = cls; status.textContent = msg; };
+const rules = [["fName","eName","Enter your full name."],["fEmail","eEmail","Enter a valid email address."],["fSubject","eSubject","Enter a subject."],["fMsg","eMsg","Enter your message."]];
+function validate(){
+  let first = null;
+  rules.forEach(r => {
+    const f = $(r[0]), e = $(r[1]); let bad = !f.value.trim();
+    if (r[0]==="fEmail" && !bad) bad = !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(f.value.trim());
+    f.setAttribute("aria-invalid", bad); f.setAttribute("aria-describedby", r[1]);
+    e.textContent = bad ? r[2] : "";
+    if (bad && !first) first = f;
+  });
+  if (first) first.focus();
+  return !first;
+}
+form.addEventListener("submit", async e => {
+  e.preventDefault(); say("","");
+  if (!validate()) return;
+  if ($("fGot").value) { say("ok","Thank you. Your message has been sent."); return; } /* bot caught */
+  const data = { name:$("fName").value.trim(), email:$("fEmail").value.trim(), subject:$("fSubject").value.trim(), message:$("fMsg").value.trim() };
+  if (ok(C.FORMSPREE_FORM_ID)){
+    send.disabled = true; say("info","Sending your message...");
+    try {
+      const r = await fetch("https://formspree.io/f/" + encodeURIComponent(C.FORMSPREE_FORM_ID), {
+        method:"POST", headers:{"Content-Type":"application/json","Accept":"application/json"}, body:JSON.stringify(data) });
+      if (r.ok){ form.reset(); say("ok","Thank you. Your message has been sent."); }
+      else say("bad","The message could not be sent. Please try again or use WhatsApp.");
+    } catch(_) { say("bad","The message could not be sent. Check your connection and try again, or use WhatsApp."); }
+    send.disabled = false;
+  } else if (ok(K.email)){
+    const body = "Name: "+data.name+"\nEmail: "+data.email+"\n\n"+data.message;
+    location.href = "mailto:"+K.email+"?subject="+encodeURIComponent(data.subject)+"&body="+encodeURIComponent(body);
+    say("info","Your email app should open with the message ready. Press send there to finish. Nothing has been sent yet.");
+  } else {
+    say("bad","The form is not connected yet. Please use the WhatsApp button to get in touch.");
+  }
+});
+
+/* Footer */
+const f = $("foot");
+f.appendChild(el("p",{text:C.name,style:"font:600 1.2rem var(--serif);color:#fff"}));
+f.appendChild(el("p",{text:C.headline}));
+const fl = el("p");
+if (ok(K.email)) fl.appendChild(link("mailto:"+K.email,"Email"));
+if (ok(K.email) && ok(K.linkedin)) fl.appendChild(document.createTextNode("  |  "));
+if (ok(K.linkedin) && safeUrl(K.linkedin)) fl.appendChild(link(K.linkedin,"LinkedIn","",true));
+if (fl.childNodes.length) fl.appendChild(document.createTextNode("  |  "));
+fl.appendChild(link("#home","Back to top"));
+f.appendChild(fl);
+f.appendChild(el("p",{text:"\u00A9 " + new Date().getFullYear() + " " + C.name}));
+})();
+</script>
+</body>
+</html>
